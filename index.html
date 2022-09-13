@@ -21,23 +21,7 @@
     <link href="assets/css/app.css" rel="stylesheet" />
     <title>Nathaniel Livingston | Portfolio</title>
 </head>
-<head>
-    <meta charset="utf-8">
-    <title>Dashboard Starter UI, by Keen IO</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-  
-    <!-- keen-analysis@3 -->
-    <script src="https://cdn.jsdelivr.net/npm/keen-analysis@3" type="text/javascript"></script>
-  
-    <!-- keen-dataviz@3 -->
-    <link href="https://cdn.jsdelivr.net/npm/keen-dataviz@3/dist/keen-dataviz.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/keen-dataviz@3/dist/keen-dataviz.min.js" type="text/javascript"></script>
-  
-    <!-- Dashboard -->
-    <link href="../../assets/css/keen-dashboards.css" rel="stylesheet" type="text/css" />
-    <link href="starter-kit.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="starter-kit.js"></script>
-  </head>
+
   
 
 <body>
@@ -64,32 +48,6 @@
                 <i class="fas fa-chevron-down"></i>
             </div>
 
-            <div class="container">
-                  </div>
-                  <div class="navbar-collapse">
-                    <ul class="navbar-nav nav main-nav">
-                      <li><a href="">Home</a></li>
-                      <li><a href="">Team</a></li>
-                      <li><a href="">Source</a>
-                      </li>
-                      <li><a href="">Community</a></li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            
-              <div class="container grid grid-simple-col-3">
-                <div id="chart-01" class="hero starter-chart"></div>
-                <div id="chart-02" class="starter-chart"></div>
-                <div id="chart-03" class="starter-chart"></div>
-                <div id="chart-04" class="starter-chart"></div>
-                <div id="chart-05" class="starter-chart"></div>
-              </div>
-              <div class="container">
-                <hr>
-                <!--<p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>-->
-              </div>
             
               <!-- Project Analytics -->
               <script type="text/javascript" src=""></script>
@@ -110,28 +68,39 @@
               </script>
         </section>
 
+        <section class="container-color">
+        </section>
+        <section class="container">
+            <div class="card custom-card">
+                <div class="card-body">
+                    <span class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </span>
+                    <section class="fragment fragment-two">
+                    <h2> Seeking New <br />Opportunities </h2>
+                        <p class="card-text">I am passionate about solving buisness problems, using Data Science & Machine Learning<br>
+                            I systematically & creatively use my skillset to add tangible value to the team, the business<br>
+                            and the end-user. I am constantly learning, and always looking to improve. </p>
+                        <h5 class="card-title">
+                        Technologies I use:
+                    </h5>
+                    <p class="card-text">
+                        HTML5, CSS3, Git, Bootstrap, JavaScript
+                    </p>
+                </div>
+            </div>
+        </section>
+
 
         <section class="fragment fragment-two">
-            <h2> Seeking New <br />Opportunities </h2>
+            <h2> <br /> </h2>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
 
-                        <!-- Edit this text with a brief intoduction / brand statement etc. -->
-                        <h5>I am passionate about solving buisness problems, using Data Science & Machine Learning
-                            I systematically & creatively use my skillset to add tangible value to the team, the business
-                            and the end-user. I am constantly learning, and always looking to improve.
-                        </h5>
                     </div>
                 </div>
-            </div>
-
-
-            <div class="learn">
-                <!-- You could hyperlink this down with a smooth scroll -->
-                <p> see why you should hire me </p>
-                <!--<i class="fas fa-chevron-down"></i>-->
-            </div>
+            </div>           
 
         <!-- TIMELINE -->
         <section class="container">
@@ -147,25 +116,72 @@
 
                     </div>
                     <div class="timeline-content">
-                        <h3>Project Title 1</h3>
+                        <h3>Mapping_Earthquakes</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                            This project was to build an interactive layered map using Leaflet.js API and using
+                            a URL to populate the map with the most current data on earthquakes around the world.
+                            (last7days) The circles in the images are proportional to the magnitude of the earthquake 
+                            and each will display an informational popup. To suit user preference the background can
+                            display three different styles and the user can add or drop any of the three data tabs 
+                            for added interactivity.
                         </p>
-                        <a href="https://github.com/Atomickilroy/UFO" class="btn"><i class="fab fa-github"></i> Code</a>
-                        <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                        <a href="https://atomickilroy.github.io/sturdy-octo-palm-tree/" class="btn"><i class="fab fa-github"></i> Live Demo</a>
+                        <!--<a href="#" class="btn"><i class="fas fa-tv"></i> </a>-->
                     </div>
                 </div>
+
+        <div class="container">
+            <div id="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-star fa-align"></i>
+
+                
+                    <div class="timeline-content">
+                        <h3>bikesharing</h3>
+                        <p>
+                            This project was a display of how to create engaging and dynamic dashboards and stories around data.
+                             By using Tableau stories and dashboards, investors will have a good understanding of the target
+                             market in Des Moines and where to plan for bike stations to maximize the use.
+                        </p>
+                        <a href="https://public.tableau.com/app/profile/nathaniel.livingston/viz/CitiBike-NYCCitiBikeMetrics/Story1?publish=yes" class="btn"><i class="fab fa-github"></i> Live Demo</a>
+                        <!--<a href="#" class="btn"><i class="fas fa-tv"></i> </a>-->
+                    </div>
+                </div>
+
+            <div class="container">
+            <div id="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-star fa-align"></i>                       
+                
+                                
+                            <div class="timeline-content">
+                                <h3>Improbable-Beef!</h3>
+                                <p>
+                                    This project was a display of how to create and engaging and dynamic dashboard 
+                                    with our 'friend' Roza. By using web visualizations and Github Pages. With Github 
+                                    Pages we were able to build a web page that allows a user to interact with
+                                    our .json file without having to run their own local serve. Additionally this
+                                    dashboarded allowed for a quick way for one of Rozas volunteers to select their
+                                    anonymized ID from the dropdown menu in the browser to display information about their results.
+                                </p>
+                                <a href="https://atomickilroy.github.io/Improbable-Beef/" class="btn"><i class="fab fa-github"></i> Live Demo</a>
+                                <!--<a href="#" class="btn"><i class="fas fa-tv"></i> </a>-->
+                            </div>
+                        </div>
+                        <div class="container">
+                    <div id="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-star fa-align"></i>
+
+        </div>  
         
-
-
-
-
-        </section>
         <section class="fragment fragment-three">
             <h3>Things I've Made</h3>
             <hr class="title-underline">
-            <div class="container carousel-container">
+            <div class="container carousel-container"></section>
 
                 <!-- begin carousel -->
                 <!-- you should replace the placeholder images with actual images from your projects -->
@@ -184,10 +200,10 @@
                             <img src="assets/images/nasa.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
-                                <p>This project was an indepth dive into of how to begin Web Scraping/
-                                     Web Building. Over the course of this project we helped our friend Robin build
-                                    a webpage that pulled updated Mars News at the click of a button.</p>
+                                <p></p>
                                 <button class="btn btn-primary">View Code</button>
+                                <a href="https://github.com/Atomickilroy" a>
+
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -196,18 +212,18 @@
                             <img src="assets/images/intro.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
-                                <p>- This project was an introduction into Tableau, a data visualization software.
-                                     The goal was to use Tableau to present key metrics from a NYC bike sharing company.</p>
-                                <button class="btn btn-primary">View Code</button>                                
+                                <p></p>
+                                <button class="btn btn-primary">View Code</button> 
+
                             </div>
                         </div>
                         <div class="carousel-item">
 
                             <!--image here -->
-                            <img src="assets/images/placeholder.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/nasa.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <p></p>
                                 <button class="btn btn-primary">View Code</button>
                             </div>
                         </div>
@@ -216,8 +232,8 @@
                 </div>
             </div>
             
-                    </section>
-                    <section class="fragment fragment-four">
+            </section>
+            <section class="fragment fragment-four">
         
 
             <h3>Technology I Use</h3>
@@ -236,7 +252,7 @@
                 </div>
             </div>
 
-        </section>
+</section>
         <section class="fragment fragment-five">
             <h3>My Education</h3>
             <hr class="title-underline">
@@ -264,7 +280,7 @@
                         <!--<a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>-->
                         <a href="https://www.linkedin.com/in/nathaniel-livingston-19aaa91b7/" class="social-icon"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/Atomickilroy" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="mailto:<njlivingstn333@gmail.com>" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <a href="njlivingstn333@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
                         <p class="text-muted copyright">Nathaniel Livingston &copy; 2022 -2042 </p>
                     </div>
                 </div>
