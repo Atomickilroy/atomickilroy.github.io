@@ -1,10 +1,10 @@
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'woff2';
  
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'woff2';
     font-size: 8rem;
     font-weight: 900;
     letter-spacing: 2px;
@@ -16,11 +16,11 @@ h2 {
 }
 
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'woff2';
     font-size: 1.5rem;
     letter-spacing: 1px;
     text-align: center;
-    color: #0e5eab;
+    color: #042e55;
 }
 
 h5 {
@@ -92,6 +92,7 @@ h5 {
   }
   
   .column img {
+    transform: translateY(-250px);
     margin-top: 8px;
     vertical-align: middle;
   }
@@ -151,7 +152,7 @@ h5 {
 
 .fragment-four .labels {
     color: #657b83;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     min-width: 70%;
     background: rgba(255,255,255,0.7)
@@ -160,13 +161,13 @@ h5 {
 .fragment-four .tech {
     padding: 0.8em;
     color: rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgb(26, 23, 23);
     font-size: 1.2rem;
     margin: 0;
 }
 .fragment-four .tech:hover {
     transition-duration: 0.3s;
-    background: rgba(255,255,255,1)
+    background: rgb(8, 6, 6)
 }
 
 
@@ -190,7 +191,7 @@ h5 {
 }
 
 .fragment-six {
-    padding: 20px;
+    padding: 15px;
 }
 
 .fragment-six h6 {
@@ -198,7 +199,7 @@ h5 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     /* letter-spacing: 2px; */
 }
 .fragment-six .social-icon {
@@ -219,7 +220,7 @@ html, body {
 
   
   .custom-card {
-    transform: translateY(-150px);
+    transform: translateY(-250px);
     text-align: center;
     width:500px;
     max-width: 90%;
@@ -242,7 +243,7 @@ html, body {
   
   .container-color, .container-dark {
     padding: 100px 0;
-    color: rgba(243, 243, 243, 0.863);
+    color: rgba(3, 3, 3, 0.863);
   }
   
   .container-color {
